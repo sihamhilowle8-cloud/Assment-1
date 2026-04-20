@@ -1,36 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Travel Home</title>
+<title>My Restaurant</title>
+
+<style>
+/* Universal selector */
+* {
+  font-family: Arial;
+}
+
+/* ID selector */
+#logo {
+  color: red;
+  text-align: center;
+}
+
+/* Class selector */
+.special {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+/* Descendant selector */
+nav a {
+  text-decoration: none;
+  color: blue;
+}
+
+footer {
+  background-color: hsl(200, 50%, 50%);
+  text-align: center;
+}
+</style>
+
 </head>
 
-<body style="font-family: Arial; margin:0;">
+<body>
 
-<header style="background:teal; color:white; padding:20px;">
-  <h1 style="margin:0;">Somali Travel</h1>
+<header>
+<h1 id="logo">🍔 My Restaurant</h1>
 </header>
 
-<nav style="background:black; padding:10px;">
-  <a href="index.html" style="color:white; margin-right:10px;">Home</a>
-  <a href="about.html" style="color:white; margin-right:10px;">About</a>
-  <a href="services.html" style="color:white; margin-right:10px;">Destinations</a>
-  <a href="contact.html" style="color:white;">Contact</a>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+</ul>
 </nav>
 
-<main style="padding:20px;">
-  <h2>Ku soo dhawoow Dalxiis</h2>
-  <p>Waxaan kaa caawinaa inaad booqato meelaha ugu quruxda badan.</p>
+<main>
 
-  <h3>Goobaha Dalxiiska</h3>
-  <ul>
-    <li>Xeebaha</li>
-    <li>Buuraha</li>
-    <li>Goobaha Taariikhiga</li>
-  </ul>
+<h2 style="color: green;">Welcome!</h2>
+
+<div class="special">
+<p>🔥 Special Offer: Buy 1 Get 1 Free!</p>
+</div>
+
+<h3>Top 3 Best Sellers</h3>
+<ol>
+<li>Burger</li>
+<li>Pizza</li>
+<li>Pasta</li>
+</ol>
+
+<div style="float:right; background-color: rgba(0,0,0,0.2); padding:10px;">
+<p><b>Hours:</b><br> 9AM - 9PM</p>
+</div>
+
 </main>
 
-<footer style="background:gray; color:white; text-align:center; padding:10px;">
-  <p>© 2026 Somali Travel</p>
+<footer>
+<p>© 2026 My Restaurant</p>
 </footer>
 
 </body>
+</html>
